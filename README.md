@@ -17,12 +17,12 @@ Modifique la variable public_ip en la línea 121 del archivo variables.tf, asign
 
   119 ##cambiar la direccion de acuerdo a la ip publica {
   120 variable "public_ip" {
-  121 default = "ipPublica/32"
+  121 default = "ip_publica/32"
   122 }
 Cambiar el archivo de procividers.tf en la línea 9,este es para la ubicación del tfstate
 
   8 backend "local" {
-  9 path = "C:/Users/user/Documents/Personal/terraform/itmiacstate.tfstate"
+  9 path = "C:/Users/user/terraform/itmiacstate.tfstate"
   10 }
   11 }
 Para activar el flujo de trabajo con GitHub Actions, realice un fork de este repositorio y cree las variables secretas con las credenciales de AWS para su laboratorio. Al realizar un push en el repositorio, se activará el flujo para ejecutar el archivo deploy1.yml.

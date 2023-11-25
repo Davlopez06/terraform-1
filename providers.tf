@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "local" {
-    path = "C:/Users/user/Documents/Personal/terraform/itmiacstate.tfstate"
+    path = "C:/Users/user/terraform/itmiacstate.tfstate"
   }
 }
 
