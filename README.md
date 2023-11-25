@@ -32,6 +32,11 @@ Para activar el flujo de trabajo con GitHub Actions, realice un fork de este rep
 ![Alt text](image-1.png)
 
 
+Despues del deploy se veria asi:
+
+![Alt text](image-3.png)
+
+
 Para el destroy:
 
 ![Alt text](image-2.png)
